@@ -1,0 +1,53 @@
+
+
+input{
+    writing-mode: horizontal-tb !important;
+    padding-block: 0px;
+    padding-inline: 0px;
+}
+
+.newProjectContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newProjectForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.formTitle{
+    font-size: 3em;
+    font-weight: 800;
+}
+
+input{
+    width: 100%;
+    border-radius: 0.5em;
+    height: 3em;
+}
+
+.selectForm{
+    width: 100%;
+    width: 100%;
+    border-radius: 0.5em;
+    height: 3em;
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 1em;
+    border-radius: 0.3em;
+}

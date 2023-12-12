@@ -1,0 +1,15 @@
+.linkButton{
+    color: white;
+    background-color: black;
+    border-radius: 0.3em;
+    padding: 1em;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+a:-webkit-any-link:hover{
+    color: yellow;
+
+}

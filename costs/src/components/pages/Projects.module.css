@@ -1,0 +1,26 @@
+.dashboarContainer {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.dashboardTitle {
+    display: flex;
+    justify-content: space-between; /* Alterado para space-between para adicionar espaçamento entre os elementos */
+    align-items: center; /* Adicionado para centralizar verticalmente os elementos */
+    padding: 0;
+    width: 85%;
+}
+
+.cardProject {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
